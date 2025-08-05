@@ -1,0 +1,31 @@
+body{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+.box{
+    border: solid;
+    padding: 10px 8px 2px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.joke-button{
+    background-color: brown;
+    max-width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border:none;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+.joke-button:hover{
+    opacity: 0.9;
+}
+.joke-button:active{
+    opacity: 0.8;
+}
